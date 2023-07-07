@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta'); 
 
 
-
+ /* Cores utilizadas no controle de estoque*/
 :root{
     --white: #FFF;
     --red: #e63636;
@@ -29,6 +29,8 @@ body{
     background-color: var(--dark1);
 }
 
+/* Style do Container*/
+
 .container{
     background-color: var(--white);
     width: 460px;
@@ -49,6 +51,8 @@ form{
     display: flex;
     margin-bottom: 8px;
 }
+
+/* Style do input*/
 
 form input{
     flex: 1;
@@ -75,6 +79,8 @@ form button:hover{
     background-color: var(--dark2);
 }
 
+/* Style da Lista de Estoque*/
+
 #stock-list{
     list-style: none;
 }
@@ -95,6 +101,9 @@ form button:hover{
 li.error{
     color: var(--red);
 }
+
+
+/* Media Query*/
 
 
 @media (min-widht: 1200px) {
